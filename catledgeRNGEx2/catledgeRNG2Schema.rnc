@@ -1,0 +1,13 @@
+start = root
+root = element root{head, sentence+, close, vis+}
+    head = element head{title, text, author}
+        title = element title{text}
+        author = element author{text}
+    sentence = element sentence{line+, n}
+        n = attribute n{xsd:integer}
+        line = element line{n, text}
+    close = element close{text, local, date}
+        local = element local{text}
+        date = element date{text}
+    vis = element vis{type+, text}
+        type = attribute type{xsd:ID}
