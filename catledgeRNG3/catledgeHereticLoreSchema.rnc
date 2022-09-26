@@ -1,0 +1,11 @@
+start = root
+root = element root{charLore, itmLore}
+    charLore = element charLore{sourceLog, mixed{char+}}
+        sourceLog = attribute sourceLog{xsd:IDREF}
+        char = element char{name, text}
+            name = attribute name{"Heretic"}
+    itmLore = element itmLore{log+}
+        log = element log{sourceLog, mixed{part}}
+            part = element part{n, text}
+                n = attribute n{xsd:integer}
+            

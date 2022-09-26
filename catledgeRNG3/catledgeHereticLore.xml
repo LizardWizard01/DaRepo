@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="catledgeHereticLoreSchema.rnc" type="application/relax-ng-compact-syntax"?>
+<!-- Couldn't remember how to make a list of xsd:IDs -->
+<root>
+    <charLore sourceLog="The Heretic">A blue flash appeared in one of the storage bays of the
+        Contact Light. The chaos ensuing on the ship was a perfect distraction. As soon as <char
+            name="Heretic">Kur-skan</char> stepped out the portal she ducked into a sprint. She had
+        no time. She weaved between gunfire and fireballs, between blasts of Vagrant energy and
+        on-board security systems. They paid no mind to the feathered figure as she darted through
+        closing blast doors. She flew quickly down the halls of the ship. Despite it being her first
+        time onboard a human vessel, she could sense the electromagnets in the walls – and where
+        they all joined. She corked right, shooting into the ventilation shafts with a bang. The
+        captain barely had a chance to see her before she blasted sideways out into the control
+        room. She tore out two windblades as he reached for his pistol. The captain fell to the
+        ground in intervals. Her momentum crashed her into the control panels, both feet digging
+        deep into monitors. She didn’t need those. Nimble, clawed fingers began ripping across
+        keypads. She quickly split and rewired components, reaching into her feathered pouches for
+        more bridges and other electronics. Various capacitors fell onto the floor. This ship was
+        big, but not complex – and more importantly, it could still fly. But she had to go fast, or
+        he – And before she could finish her thought, he appeared in a flash of thunder. Blue and
+        green light reflected off of his sword, cascading around the bridge. A cape fluttered, and
+        Providence landed lightly on his feet. <char name="Heretic">Kur-skan</char> bent her head
+        backwards over her body, hands still tearing at panels. He was much faster than she
+        expected. But maybe he would – Her last thoughts were interrupted instantly by a crystalline
+        blade.</charLore>
+    <itmLore>
+        <log sourceLog="Visions of Heresy">…and for her betrayal, and her lies, and her scheming
+            ways, the Heretic was violently separated into four distinctive pieces, each to be
+            scattered across the farthest depths of the Moon. First, her many eyes were plucked from
+            her skull and sealed in boiling glass, forced to gaze upon her failure...” -<part n="3"
+                >The Evisceration of Kur-skan the Heretic, III</part></log>
+
+
+        <log sourceLog="Hooks of Heresy">“…her arms were warped into terrible blades, so she may no
+            longer find joy in study or tooling…” -<part n="4">The Evisceration of Kur-skan the
+                Heretic, IV</part></log>
+
+
+        <log sourceLog="Strides of heresy">“Her legs were scattered to the two poles of the moon,
+            twisted in a wicked position, in a field of obsidian thorns…" -<part n="5">The
+                Evisceration of Kur-skan the Heretic, V</part></log>
+
+
+        <log sourceLog="Essence of Heresy">“…and her heart, too wicked and full of hate, was left
+            where she once stood – at the site of her betrayal.” -<part n="6">The Evisceration of
+                Kur-skan the Heretic, VI</part></log>
+    </itmLore>
+</root>
