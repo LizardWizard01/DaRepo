@@ -1,7 +1,7 @@
 start = root
 root = element root{charLore, itmLore}
     charLore = element charLore{sourceLog, mixed{char+}}
-        sourceLog = attribute sourceLog{xsd:IDREF}
+        sourceLog = attribute sourceLog{"The Heretic" | "Visions of Heresy" | "Hooks of Heresy" | "Strides of heresy" | "Essence of Heresy"}
         char = element char{name, text}
             name = attribute name{"Heretic"}
     itmLore = element itmLore{log+}

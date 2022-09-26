@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="catledgeHereticLoreSchema.rnc" type="application/relax-ng-compact-syntax"?>
-<!-- Couldn't remember how to make a list of xsd:IDs -->
+
 <root>
     <charLore sourceLog="The Heretic">A blue flash appeared in one of the storage bays of the
         Contact Light. The chaos ensuing on the ship was a perfect distraction. As soon as <char
