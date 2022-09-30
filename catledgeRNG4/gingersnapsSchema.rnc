@@ -1,0 +1,21 @@
+start = xml
+xml = element xml{title, desc, prepTime, bakeTime, totalTime, yield, recipe}
+    title = element title{text}
+    desc = element desc{text}
+    prepTime = element prepTime{time, text}
+        time = attribute time{xsd:duration}
+    bakeTime = element bakeTime{time, text}
+    totalTime = element totalTime{time, text}
+    yield = element yield{text}
+    recipe = element recipe{mixed{ingredients, instructions}}
+        ingredients = element ingredients{mixed{cookieIng, coatingIng}}
+            cookieIng = element cookieIng{mixed{ing+}}
+                ing = element ing{name?, ref?, text}
+                    name = attribute name{xsd:ID}
+                    ref = attribute ref{xsd:IDREFS}
+            coatingIng = element coatingIng{mixed{ing+}}
+        instructions = element instructions{mixed{step+}}
+            step = element step{n, mixed{in?}}
+                n = attribute n{xsd:integer}
+                in = element in{ref, text}
+            
