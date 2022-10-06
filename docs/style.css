@@ -1,0 +1,27 @@
+body{
+    background-color: white;
+}
+h1{
+    color: black;
+}
+h2{
+    color: black;
+}
+h3{
+    color: black;
+}
+p{
+    color: black;
+}
+a:link {
+  color: blue;
+}
+a:visited {
+  color: red;
+}
+a:hover {
+  color: deepskyblue;
+}
+
+
+
