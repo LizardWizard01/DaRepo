@@ -1,26 +1,56 @@
 body{
-    background-color: white;
+    background-color: black;
 }
 h1{
-    color: black;
+    color: white;
+    text-align: center;
+    font-size: 40px;
 }
 h2{
-    color: black;
+    color: white;  
 }
 h3{
-    color: black;
+    color: white;
 }
 p{
-    color: black;
+    color: white;
 }
 a:link {
-  color: blue;
+    color: blue;
 }
 a:visited {
-  color: red;
+    color: red;
 }
 a:hover {
-  color: deepskyblue;
+color: deepskyblue;
+}
+
+nav {background-color:darkblue;
+display:flex;
+}
+
+nav > img.photo {
+max-width:200px;
+flex:1;
+}
+ 
+nav > ul.menuB {
+list-style-type: none;
+flex:9;
+}
+nav ul.menuB li {
+  display:inline;
+  font-size: 3vw;
+  padding-bottom:30vw;
+  text-align:center;
+}
+body section.gallery {
+    width: 80%;
+    background-color:darkblue; 
+    padding:2em; 
+    margin:auto; 
+    display:flex;
+    flex-direction:row;
 }
 
 
