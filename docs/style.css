@@ -1,24 +1,24 @@
 body{
-    background-color: black;
+    background-color: gainsboro;
 }
 h1{
-    color: white;
+    color: black;
     text-align: center;
     font-size: 40px;
 }
 h2{
-    color: white;
+    color: black;
     text-align: center;
 }
 h3{
-    color: white;
+    color: black;
 }
 p{
-    color: white;
-    text-align: center;
+    color: black;
+    text-align: left;
 }
 li{
-    color: white;
+    color: black;
 }
 a{
     text-align: center;
@@ -33,7 +33,7 @@ a:hover {
 color: deepskyblue;
 }
 
-nav {background-color:darkblue;
+nav {background-color:cornflowerblue;
 display:flex;
 }
 
@@ -54,7 +54,7 @@ nav ul.menuB li {
 }
 body section.gallery {
     width: 90%;
-    background-color:darkblue; 
+    background-color:cornflowerblue; 
     padding:2em; 
     margin:auto; 
     display:flex;
