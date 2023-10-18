@@ -24,10 +24,10 @@ a{
     text-align: center;
 }
 a:link {
-    color: blue;
+    color: #0000ff;
 }
 a:visited {
-    color: red;
+    color: #7c1717;
 }
 a:hover {
 color: deepskyblue;
