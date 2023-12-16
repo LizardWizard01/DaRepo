@@ -1,0 +1,15 @@
+I manually added an <xml> tag around the text
+
+I found and replaced all & with:
+Find: &
+Replace: &amp;
+
+Then I tagged each movie line with <movie> using:
+Find: ^.+
+Replace: <movie>\0</movie>
+
+Then I tagged all the titles using:
+Find: (<movie>)(.+?)\t
+Replace: \1<title>\2</title>
+
+Lastly I manually put a xml tag over everything
